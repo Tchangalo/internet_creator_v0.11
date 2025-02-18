@@ -81,9 +81,9 @@ Mit 32 GB RAM ist man auf jeden Fall auf der sicheren Seite, wenn man alle 9 Rou
 
 1\) Wenn der zu erstellende Router bereits existiert, wird er erstmal _zerstört_.
 
-2\) Dann wird er _erstellt_, indem ein create-vms-vyos\_XYfs.sh Skript aufgerufen wird.
+2\) Dann wird er _erstellt_, indem das create-vms-vyos.sh Skript aufgerufen wird.
 
-3\) Der Router wird _gestartet_ (erster Boot) und die SSH known hosts werden _ge__up__datet_.
+3\) Der Router wird _gestartet_ (erster Boot) und die SSH known hosts werden _geupdatet_.
 
 **II Upgrade**
 
