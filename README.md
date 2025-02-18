@@ -11,7 +11,7 @@ Für alle, die mit den [Streams](https://github.com/aibix0001/streams) von Aibix
 
 Nach dem Clonen dieses Repos den Ordner inc aus dem Ordner internet_creator_v0.11 herausnehmen und in den Pfad ```/home/user/``` des PVE-Hosts ablegen und dann von da aus arbeiten.
 
-Zunächst das Skript ```useradd.sh``` (als pve-root) laufen lassen. Das spart nicht nur eine Menge Arbeit (vgl. Beschreibung und Gebrauchshinweise zum INC v0.11.md Anmerkung (4)), sondern ist auch Voraussetzung dafür, dass das Skript ```dhcp_configure.sh``` funktioniert. 
+Zunächst das Skript ```useradd.sh``` (als pve-root) laufen lassen. Das erleichtert nicht nur den SSH-Login erheblich (vgl. Beschreibung und Gebrauchshinweise zum INC v0.11.md Anmerkung (4)), sondern ist auch Voraussetzung dafür, dass das Skript ```dhcp_configure.sh``` funktioniert. 
 Die automatische Erstellung des Vyos Cloud Init Images findet auf dem DHCP-Server statt. Das funktioniert nur, wenn der Server in der Weise aufgesetzt worden ist, die im Setup.md beschrieben wird. Konkret bedeutet das, dass die SSH-Schlüssel zwischen dem PVE-User und dem DHCP-Server-User ausgetauscht werden und das Skript ```dhcp_configure.sh``` ausgeführt wird. 
 
 Der Internet Creator wird folgendermaßen aufgerufen:
