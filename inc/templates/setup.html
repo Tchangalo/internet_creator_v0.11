@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Setup{% endblock %}
+
+{% block content %}
+<div class="wrapper">
+  <div>
+    <h2 class="site-titel">Create Vyos Cloud Init Image</h2>
+    <form method="post" class="form-container">
+      <label for="VM Username">VM (DHCP Server) Username:</label>
+      <input type="text" name="VM Username" value="">
+      
+      <label for="VM IP">VM (DHCP Server) IP:</label>
+      <input type="text" name="VM IP" value="">
+      
+      <label for="PVE IP">PVE IP:</label>
+      <input type="text" name="PVE IP" value="">
+      
+      <label for="Version No">Vyos Version No (e.g. 1.5.0):</label>
+      <input type="text" name="Version No" value="">
+      
+      <button type="submit" name="create_vyos_qcow2">Create Image</button>
+    </form>
+  </div>
+
+  <div>
+    <h2 class="site-titel">Create Seed</h2>
+    <form method="post" class="form-container">
+      <button type="submit" name="create_seed">Create Seed</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

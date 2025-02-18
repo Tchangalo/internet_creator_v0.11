@@ -1,0 +1,7 @@
+---
+
+  ansible_user: vyos
+  ansible_network_os: vyos.vyos.vyos
+  ansible_ssh_timeout: 120
+  ansible_command_timeout: 120
+  pause_time: 1

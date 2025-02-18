@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Upgrade{% endblock %}
+
+{% block content %}
+<div class="wrapper">
+  <div>
+    <h2 class="site-titel">Upgrade Vyos Routers</h2>
+    <form method="post" class="form-container">
+      <label for="Provider">Provider:</label>
+      <input type="text" name="Provider" value="">
+
+      <div class="router-fields">
+        <div class="input-group">
+          <label for="First Router">First Router:</label>
+          <input type="text" name="First Router" value="">
+        </div>
+
+        <div class="input-group">
+          <label for="Last Router">Last Router:</label>
+          <input type="text" name="Last Router" value="">
+        </div>
+      </div>
+
+      <div>
+        <label for="Start Delay">Start Delay:</label>
+        <input type="text" name="Start Delay" value="">
+      </div>
+
+      <div class="checkbox-label">
+        <input type="checkbox" name="Serial Mode">
+        <label for="Serial Mode">Serial Mode</label>
+      </div>
+
+      <button type="submit" name="upgrade">Upgrade</button>
+    </form>
+  </div>
+
+  <div>
+    <h2 class="site-titel">Upgrade Vyos Routers Fast</h2>
+    <form method="post" class="form-container">
+      <label for="Provider">Provider:</label>
+      <input type="text" name="Provider" value="">
+
+      <div class="router-fields">
+        <div class="input-group">
+          <label for="First Router">First Router:</label>
+          <input type="text" name="First Router" value="">
+        </div>
+
+        <div class="input-group">
+          <label for="Last Router">Last Router:</label>
+          <input type="text" name="Last Router" value="">
+        </div>
+      </div>
+
+      <button type="submit" name="upgrade_fast">Upgrade Fast</button>
+    </form>
+  </div>
+</div>
+{% endblock %}
+
