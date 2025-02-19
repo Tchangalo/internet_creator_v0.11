@@ -7,7 +7,7 @@ NC='\033[0m'
 
 vm_user=$(whoami)
 echo "Enter the password of the DHCP-server user:"
-read mgmt_ip
+read password
 echo "Enter the PVE-IP (v4):"
 read pve_ip
 pve_hostname=$(ssh -o StrictHostKeyChecking=no -o ConnectTimeout=5 "user@$pve_ip" hostname -s)
