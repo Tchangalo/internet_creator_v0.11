@@ -1,4 +1,4 @@
-## **ACHTUNG: Der Internet Creator funktioniert bis auf weiteres nicht mehr, wohl weil die vyos.iso ihr Namensmuster geändert hat.** ##
+## **ACHTUNG: Der Internet Creator funktioniert im Moment nicht richtig: Beim Setup muss die vyos.qcow2 händisch erstellt werden.** ##
 
 ## Verwendungszwecke:
 
