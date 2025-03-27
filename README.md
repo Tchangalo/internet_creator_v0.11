@@ -1,4 +1,4 @@
-## **ACHTUNG: Der Internet Creator funktioniert im Moment nicht richtig: Beim Setup muss die vyos.qcow2 händisch erstellt werden.** ##
+## **ACHTUNG: Der Internet Creator funktioniert nicht mehr richtig, wenn man das neue ubuntu-24.04.2-live-server-amd64 als DHCP-Sever nimmt. Man sollte ubuntu-24.04.1-live-server-amd64 verwenden.** ##
 
 ## Verwendungszwecke:
 
